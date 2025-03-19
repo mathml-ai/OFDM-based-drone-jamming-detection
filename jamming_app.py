@@ -4,7 +4,7 @@ import numpy as np
 import xgboost as xgb
 
 # Load model
-model = joblib.load('C:\\Users\\HP\\Drone_jamming_Detection.pkl')
+model = joblib.load('Drone_jamming_Detection.pkl')
 
 # Define feature names
 feature_names = [
